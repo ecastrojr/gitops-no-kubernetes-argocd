@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
       - name: "argocd.prometheus.enabled"
-        value: "false"
+        value: "true"
       - name: "argocd.prometheus.ingress"
         value: "prometheus.company123.com"
       - name: "argocd.grafana.enabled"
