@@ -11,11 +11,11 @@ spec:
   source:
     path: app-of-apps
     helm:
-      parameters:
-      - name: "argocd.giropopsSenhas.enabled"
-        value: "true"
-      - name: "argocd.randomLogger.enabled"
-        value: "true"
+    #  parameters:
+    #  - name: "argocd.giropopsSenhas.enabled"
+    #    value: "true"
+    #  - name: "argocd.randomLogger.enabled"
+    #    value: "true"
     repoURL: https://github.com/ecastrojr/gitops-no-kubernetes-argocd.git
     targetRevision: feat/day2
   syncPolicy:
